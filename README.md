@@ -10,7 +10,7 @@ WattWatcher is an IoT solution developed by Matthew Mc Daid for monitoring resid
 - **Alerts:** Notifications for significant usage or tariff changes.
 
 ## System Components
-- **Hardware:** ESP-8266 module and Current Transformer Clamps.
+- **Hardware:** ESP-32 module and Current Transformer Clamps.
 - **Database:** Firebase.
 - **Application:** .NET MAUI for user interface.
 
@@ -25,7 +25,7 @@ WattWatcher is an IoT solution developed by Matthew Mc Daid for monitoring resid
 git clone https://github.com/L00160463/WattWatcher-Arduino.git
 2. Setup Arduino:
 - Install libraries in Arduino IDE.
-- Upload scripts to ESP-8266.
+- Upload scripts to ESP-32.
 3. Setup Firebase:
 - Create a project.
 - Update .NET MAUI app with Firebase keys.
@@ -34,14 +34,4 @@ git clone https://github.com/L00160463/WattWatcher-Arduino.git
 
 ## Usage
 Start the system to monitor electricity. The app displays current and historical usage.
-
-## Contribute
-Feel free to contribute! Check `CONTRIBUTING.md` for guidelines.
-
-## License
-MIT License - see `LICENSE.md` for details.
-
-## Acknowledgments
-- Supervisor: Thomas Devine.
-- Atlantic Technological University.
 
