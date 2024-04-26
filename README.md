@@ -1,38 +1,47 @@
-# WattWatcher: An IoT Energy Monitoring System
+# WattWatcher: IoT Energy Monitoring System
 
-Welcome to the WattWatcher repository! This project is a comprehensive Internet of Things (IoT) solution for monitoring residential energy usage in real-time. It is developed as part of Matthew Mc Daid's final thesis for the BSc (Hons) in Applied Computing at the Atlantic Technological University.
+## Introduction
+WattWatcher is an IoT solution developed by Matthew Mc Daid for monitoring residential energy use in real-time as part of his BSc (Hons) in Applied Computing thesis at Atlantic Technological University.
 
-## Project Overview
+## Features
+- **Real-Time Monitoring:** Instant updates on electricity use.
+- **Cross-Platform App:** Accessible via a .NET MAUI application.
+- **Cloud Integration:** Uses Firebase for data management.
+- **Alerts:** Notifications for significant usage or tariff changes.
 
-WattWatcher utilizes a 4 Channel ESP-8266 Mains Current Sensor and the ESP-8266 Wi-Fi Module to monitor electricity consumption at the circuit level within households. The system leverages Current Transformer (CT) Clamps to safely measure electricity usage without the need to modify existing electrical installations.
+## System Components
+- **Hardware:** ESP-8266 module and Current Transformer Clamps.
+- **Database:** Firebase.
+- **Application:** .NET MAUI for user interface.
 
-### Key Features
-
-- **Real-Time Monitoring**: Track electricity usage instantaneously and receive updates through a user-friendly interface.
-- **Cross-Platform Accessibility**: Access energy data on various devices through a .NET MAUI-based application that provides a seamless user experience.
-- **Cloud Integration**: Utilize Firebase for secure and real-time data storage and management.
-- **User Alerts**: Get notified about critical energy usage and tariff changes, empowering users to manage consumption more effectively.
-
-## System Architecture
-
-The system architecture encompasses several components working in harmony:
-
-- **ESP-8266 and CT Clamps**: Capture and transmit the current data.
-- **Firebase Database**: Stores the energy usage data securely in the cloud.
-- **.NET MAUI Application**: Acts as the interface for data visualization and user interaction.
-
-![System Data Flow Diagram](/assets/data_flow_diagram.png) *Data Flow Diagram of the WattWatcher System*
-
-## Getting Started
-
+## Setup
 ### Prerequisites
-
 - Arduino IDE
 - .NET MAUI SDK
 - Firebase account
 
-### Installation
+### Installation Steps
+1. Clone the repo:
+git clone https://github.com/L00160463/WattWatcher-Arduino.git
+2. Setup Arduino:
+- Install libraries in Arduino IDE.
+- Upload scripts to ESP-8266.
+3. Setup Firebase:
+- Create a project.
+- Update .NET MAUI app with Firebase keys.
+4. Run .NET MAUI app:
+- Open in Visual Studio and run.
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/L00160463/WattWatcher-Arduino.git
+## Usage
+Start the system to monitor electricity. The app displays current and historical usage.
+
+## Contribute
+Feel free to contribute! Check `CONTRIBUTING.md` for guidelines.
+
+## License
+MIT License - see `LICENSE.md` for details.
+
+## Acknowledgments
+- Supervisor: Thomas Devine.
+- Atlantic Technological University.
+
